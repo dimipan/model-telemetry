@@ -1,0 +1,9 @@
+signal,orientation,exact_copy_auprc_mean,exact_copy_auprc_sd,exact_copy_auroc_mean,exact_copy_auroc_sd,exact_copy_tpr_mean,exact_copy_tpr_sd,exact_copy_base,verification_auprc_mean,verification_auprc_sd,verification_auroc_mean,verification_auroc_sd,verification_tpr_mean,verification_tpr_sd,verification_base,fpr_clean_mean
+lexical_ngram,fixed,1.0,0.0,1.0,0.0,1.0,0.0,0.2652,0.2996,0.0126,0.3682,0.0149,0.0841,0.0108,0.2558,0.0465
+token_entropy,fitted,0.3482,0.0102,0.5565,0.014,0.14,0.0185,0.2652,0.8927,0.0187,0.967,0.0046,0.8994,0.0291,0.2558,0.0541
+step_length,fitted,0.2573,0.0104,0.4883,0.0248,0.0395,0.0168,0.2652,0.3904,0.0613,0.5157,0.0767,0.2249,0.0473,0.2558,0.0454
+history_size,fitted,0.2877,0.0085,0.5661,0.009,0.0433,0.0361,0.2652,0.274,0.0097,0.5728,0.0149,0.0602,0.051,0.2558,0.0335
+recurrence_only,fixed,0.4599,0.0344,0.7523,0.0155,0.167,0.0413,0.2652,0.4089,0.04,0.6562,0.0152,0.2338,0.0449,0.2558,0.0655
+gain_only,fixed,0.3578,0.0094,0.676,0.0089,0.0,0.0,0.2652,0.3581,0.0173,0.6915,0.0126,0.0,0.0,0.2558,0.0
+gated_recurrence,fixed,0.5275,0.0382,0.823,0.0137,0.2182,0.0419,0.2652,0.4828,0.0469,0.7723,0.0174,0.272,0.0315,0.2558,0.0649
+gated_recurrence_soft,fixed,0.525,0.0384,0.8168,0.0147,0.2182,0.0419,0.2652,0.4752,0.046,0.7543,0.0165,0.272,0.0315,0.2558,0.0649
