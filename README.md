@@ -67,6 +67,7 @@ it.
 
 - The stalls are **synthetic**. This tests detection of deliberate
   repetition, not real overthinking in the wild.
+- GSM8K arithmetic seems a hard case because resolution doesn't accumulate gradually over many steps, maybe a denser setting is needed.
 - Reading model internals is a whole field with heavier machinery. This is minimal on
   purpose: two measurements and a gate, nothing trained — testing whether even that survives
   proper baselines.
