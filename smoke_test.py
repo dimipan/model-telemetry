@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 tests/smoke_test.py — run the injection + evaluation pipeline on a synthetic
-fixture. No model, no GPU, no downloads. Verifies plumbing and the load-bearing
+fixture. No model, no GPU, no downloads. Verifies plumbing and the 
 invariants. It says nothing about whether the real signal works.
 
 The fixture plants recurrence deliberately: injected stall steps get hidden
 states close to an earlier step. If the pipeline is wired correctly, recurrence
-signals must beat chance here. If they do not, the code is broken, not the idea.
+signals must beat chance here.
 
     python tests/smoke_test.py
 """

@@ -1,8 +1,7 @@
 """
-modeling.py — model loading, with a dtype that is resolved rather than assumed.
+modeling.py — model loading, with a dtype that is resolved.
 
-Kept separate from telemetry.py so the signal definitions stay torch-free and
-testable on a laptop.
+Kept separate from telemetry.py.
 """
 
 from __future__ import annotations

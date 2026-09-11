@@ -9,7 +9,6 @@ future change to the rule.
 
     python resegment.py --in data/original_traces.jsonl --out data/original_traces.jsonl
 
-(in-place is fine; it writes to a temp file and moves it over)
 """
 
 from __future__ import annotations

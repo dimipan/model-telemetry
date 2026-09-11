@@ -118,7 +118,7 @@ def make_verification(steps, intermediates, rng, k):
         new_steps = steps[:i] + inserted + steps[i:]
         labels = [0] * i + [1] * k + [0] * (T - i)
 
-        # THE LOAD-BEARING INVARIANT. Re-score the completed trace before it can
+        # Re-score the completed trace before it can
         # be written. Injected steps are scored RESULT-ONLY (result_only_steps
         # mask): they restate a value, and must be credited only on that value,
         # never on incidental operand co-occurrence. Under that rule an inserted
